@@ -11,6 +11,8 @@
 		95A0B6CB1B6327670093F90F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A0B6CA1B6327670093F90F /* Images.xcassets */; };
 		95A0B6CE1B6327670093F90F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95A0B6CC1B6327670093F90F /* MainMenu.xib */; };
 		95A0B6DA1B6327670093F90F /* ThermostatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0B6D91B6327670093F90F /* ThermostatTests.swift */; };
+		95A0B6E51B6327890093F90F /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0B6E31B6327890093F90F /* MainWindowController.swift */; };
+		95A0B6E61B6327890093F90F /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95A0B6E41B6327890093F90F /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		95A0B6D31B6327670093F90F /* ThermostatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermostatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A0B6D81B6327670093F90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95A0B6D91B6327670093F90F /* ThermostatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermostatTests.swift; sourceTree = "<group>"; };
+		95A0B6E31B6327890093F90F /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		95A0B6E41B6327890093F90F /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				95A0B6C81B6327670093F90F /* AppDelegate.swift */,
+				95A0B6E31B6327890093F90F /* MainWindowController.swift */,
+				95A0B6E41B6327890093F90F /* MainWindowController.xib */,
 				95A0B6CA1B6327670093F90F /* Images.xcassets */,
 				95A0B6CC1B6327670093F90F /* MainMenu.xib */,
 				95A0B6C61B6327670093F90F /* Supporting Files */,
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A0B6CB1B6327670093F90F /* Images.xcassets in Resources */,
+				95A0B6E61B6327890093F90F /* MainWindowController.xib in Resources */,
 				95A0B6CE1B6327670093F90F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A0B6E51B6327890093F90F /* MainWindowController.swift in Sources */,
 				95A0B6C91B6327670093F90F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
